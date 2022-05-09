@@ -1,0 +1,11 @@
+/home/piai/ubunlogApp/test1/obj/Debug/netcoreapp2.2/test1.csprojAssemblyReference.cache
+/home/piai/ubunlogApp/test1/obj/Debug/netcoreapp2.2/test1.csproj.CoreCompileInputs.cache
+/home/piai/ubunlogApp/test1/obj/Debug/netcoreapp2.2/test1.AssemblyInfoInputs.cache
+/home/piai/ubunlogApp/test1/obj/Debug/netcoreapp2.2/test1.AssemblyInfo.cs
+/home/piai/ubunlogApp/test1/bin/Debug/netcoreapp2.2/test1.deps.json
+/home/piai/ubunlogApp/test1/bin/Debug/netcoreapp2.2/test1.runtimeconfig.json
+/home/piai/ubunlogApp/test1/bin/Debug/netcoreapp2.2/test1.runtimeconfig.dev.json
+/home/piai/ubunlogApp/test1/bin/Debug/netcoreapp2.2/test1.dll
+/home/piai/ubunlogApp/test1/bin/Debug/netcoreapp2.2/test1.pdb
+/home/piai/ubunlogApp/test1/obj/Debug/netcoreapp2.2/test1.dll
+/home/piai/ubunlogApp/test1/obj/Debug/netcoreapp2.2/test1.pdb
