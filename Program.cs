@@ -104,17 +104,25 @@ namespace test1
             float _avg = 0;                 // python ConsoleWriteLine 단어 첫시작 대문자로 ->낙타형식
             string _asc;
 
-            Console.WriteLine("몇개의 과목 정보를 입력하시겠습니까? : ");   //input = writeline
+            Console.Write("몇개의 과목 정보를 입력하시겠습니까? : ");   //input = writeline
             num = int.Parse(Console.ReadLine());                        // a = input("") == num = Realine
             int[] person = new int[num];                               
             string[] _score = new string[num];
 
             for(int i = 0; i < num; i++){  //for x in len(range(num)) 0~>// 초기값 ; 최종값 ; 증감형태 
-            Console.Write("과목을 입력하세요  : ");
-            _score[i] = Console.ReadLine();                   //기본형식은 str으로 받아옴
-            Console.Write("점수를 입력하세요  : ");
-            person[i] = int.Parse(Console.ReadLine());        // int형식으로 변환할때는 int.Parsr()사용  == int(input())
-            _sum += person[i];
+                try{
+                    Console.Write("과목을 입력하세요  : ");
+                    _score[i] = Console.ReadLine();                   //기본형식은 str으로 받아옴
+                    Console.Write("점수를 입력하세요  : ");
+                    person[i] = int.Parse(Console.ReadLine());        // int형식으로 변환할때는 int.Parsr()사용  == int(input())
+                    _sum += person[i];
+            }
+                catch {
+                    Console.WriteLine("error");
+                    break;
+
+            }
+            
             }
             // 배열요소 person =[100,95]
             // 배열요소 _score = ["영어", "수학"]         //python -> str, char == 0
